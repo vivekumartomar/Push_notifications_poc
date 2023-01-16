@@ -1,4 +1,4 @@
-## Laravel Web Push Example
+## Web push notifications channel for Laravel
 
 A basic example of using webpush notifications with laravel and Javascript. Push Notifications are a part of Service Workers and It requires HTTPS unless you are using localhost.
 
@@ -17,10 +17,16 @@ A basic example of using webpush notifications with laravel and Javascript. Push
 
     `php artisan key:generate`
 -create tables by migrations.
+
     `php artisan migrate`
+    
 -Generate VAPID Keys (this command will place the VAPID keys in your .env file).
+
     `php artisan webpush:vapid`
--Add the VAPID public key to application server key in enable-push.js file located in public/js directory, here's the link to that line
+    
+-Add the VAPID public key to application server key in enable-push.js file located in public/js directory, here's the link to that line.
+
+Run `npm install` and `npm run build`.
 
 -Start Laravel dev server.
 
