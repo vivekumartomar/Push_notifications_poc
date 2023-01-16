@@ -32,6 +32,4 @@ Run `npm install` and `npm run build`.
 
     `php artisan serve`
 
-Read the entire tutorial Push Notifications with Laravel and Webpush on Medium.
-
 Webpush package is used by this app.
